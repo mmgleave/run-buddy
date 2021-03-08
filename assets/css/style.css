@@ -1,4 +1,50 @@
+/* browser-enforced styles override */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    /* apply styles to <body> */
+    color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: tomato;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* apply styles to the h1 in <header> */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* apply styles to a elements in <header> */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* apply styles to nav elements in <header> */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* apply styles to nav ul li elements in <header> */
+header nav ul li {
+    display: inline;
+}
+
+/* apply styles to nav ul li a in <header> */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
